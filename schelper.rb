@@ -7,7 +7,7 @@ class Schelper < Formula
   version "1.0.4"
 
   def install
-    system "go", "build", "-ldflags, "-X github.com/mdsauce/schelper/cmd.CurVersion=1.0.4", " "-o", bin/"schelper", "."
+    system "go", "build", "-ldflags", "-X github.com/mdsauce/schelper/cmd.CurVersion=1.0.4", " "-o", bin/"schelper", "."
   end
 
   test do
