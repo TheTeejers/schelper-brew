@@ -1,4 +1,4 @@
-ver = 1.0.4
+ver = "1.0.4"
 class Schelper < Formula
   desc "Analyze log files from Sauce Connect"
   homepage "https://github.com/mdsauce/schelper"
