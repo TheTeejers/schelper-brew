@@ -11,3 +11,18 @@ Make sure you change ALL existing versions listed.  There should be three
 Run `brew fetch your-formula --build-from-source` to get the proper checksum
 
 Run `brew upgrade schelper` locally to make sure the new version upgrades properly.
+
+
+### Steps to Automate
+get ver. number
+- get new version number from user
+open new release
+- add tag of new version number to master
+- push tag to master
+update schelper-brew
+- download the tar file of latest release
+- get sha256 sum of release
+- update schelper.brew with new sha
+- update URL ver. for github release  
+- update literal ver number in schelper
+- update version number in install block for compile time instructions
