@@ -18,7 +18,7 @@ get ver. number
 - get new version number from user
 - get release comments from the user.  if any
 
-open new release
+open new release - refer to https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - add tag of new version number to master
 - push tag to master
 
