@@ -16,9 +16,12 @@ Run `brew upgrade schelper` locally to make sure the new version upgrades proper
 ### Steps to Automate
 get ver. number
 - get new version number from user
+- get release comments from the user.  if any
+
 open new release
 - add tag of new version number to master
 - push tag to master
+
 update schelper-brew
 - download the tar file of latest release
 - get sha256 sum of release
